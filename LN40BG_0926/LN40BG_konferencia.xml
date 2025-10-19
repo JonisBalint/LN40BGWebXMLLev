@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LN40BG_konferencia>
+    <konferencia>
+        <cim>Környezetünk védelme</cim>
+        <hallgatok>
+            <hallgato>
+                <nev>Kovács Olivér</nev>
+                <lakcim>3521. Miskolc, Fa utca 2.</lakcim>
+            </hallgato>
+            <hallgato>
+                <nev>Nagy Sára</nev>
+                <lakcim>3521. Miskolc, Réz utca 2.</lakcim>
+            </hallgato>
+        </hallgatok>
+        <helyszin>Miskolci Galéria</helyszin>
+        <eloado>
+            <nev>Érdi Éva</nev>
+            <adoszam>12345678</adoszam>
+            <lakcim>1002. Budapest, Csalogány utca 14.</lakcim>
+        </eloado>
+        <datum>2025.09.26.</datum>
+    </konferencia>
+</LN40BG_konferencia>
