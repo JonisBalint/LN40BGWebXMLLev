@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE LN40BG_orarend SYSTEM "LN40BG_orarend.dtd">
+
+<LN40BG_orarend>
+
+    <ora id="egy" tipus="eloadas">
+        <kurzus>Webes adatkezelő környezetek</kurzus>
+        <idopont>
+            <nap>Péntek</nap>
+            <tol>12:30</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>Online</helyszin>
+        <oktato>Dr. BL</oktato>
+        <szak>Mérnök-informatikus Bsc</szak>
+    </ora>
+
+    <ora id="ketto" tipus="eloadas">
+        <kurzus>Web technológiák</kurzus>
+        <idopont>
+            <nap>Szombat</nap>
+            <tol>8:30</tol>
+            <ig>15:10</ig>
+        </idopont>
+        <helyszin>Online</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>Mérnök-informatikus Bsc</szak>
+    </ora>
+
+    <ora id="harom" tipus="eloadas">
+        <kurzus>Elektrotechnika-elektronika</kurzus>
+        <idopont>
+            <nap>Péntek</nap>
+            <tol>12:30</tol>
+            <ig>15:50</ig>
+        </idopont>
+        <helyszin>XXX</helyszin>
+        <oktato>Szabó Norbert</oktato>
+        <szak>Mérnök-informatikus Bsc</szak>
+    </ora>
+
+    <ora id="negy" tipus="gyakorlat">
+        <kurzus>Mobil programozási alapok</kurzus>
+        <idopont>
+            <nap>Szombat</nap>
+            <tol>8:30</tol>
+            <ig>15:10</ig>
+        </idopont>
+        <helyszin>Online</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>Mérnök-informatikus Bsc</szak>
+    </ora>
+
+    <ora id="ot" tipus="eloadas">
+        <kurzus>Webes adatkezelő környezetek</kurzus>
+        <idopont>
+            <nap>Péntek</nap>
+            <tol>12:30</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>Online</helyszin>
+        <oktato>Dr. BL</oktato>
+        <szak>Mérnök-informatikus Bsc</szak>
+    </ora>
+
+        <ora id="hat" tipus="gyakorlat">
+        <kurzus>Elektrotechnika-elektronika</kurzus>
+        <idopont>
+            <nap>Péntek</nap>
+            <tol>16:00</tol>
+            <ig>19:20</ig>
+        </idopont>
+        <helyszin>XXX</helyszin>
+        <oktato>Szabó Norbert</oktato>
+        <szak>Mérnök-informatikus Bsc</szak>
+    </ora>
+
+    <ora id="het" tipus="eloadas">
+        <kurzus>Web technológiák</kurzus>
+        <idopont>
+            <nap>Szombat</nap>
+            <tol>8:30</tol>
+            <ig>15:10</ig>
+        </idopont>
+        <helyszin>Online</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>Mérnök-informatikus Bsc</szak>
+    </ora>
+
+        <ora id="nyolc" tipus="eloadas">
+        <kurzus>Webes adatkezelő környezetek</kurzus>
+        <idopont>
+            <nap>Péntek</nap>
+            <tol>12:30</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>Online</helyszin>
+        <oktato>Dr. BL</oktato>
+        <szak>Mérnök-informatikus Bsc</szak>
+    </ora>
+
+    <ora id="kilenc" tipus="gyakorlat">
+        <kurzus>Mobil programozási alapok</kurzus>
+        <idopont>
+            <nap>Szombat</nap>
+            <tol>8:30</tol>
+            <ig>15:10</ig>
+        </idopont>
+        <helyszin>Online</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>Mérnök-informatikus Bsc</szak>
+    </ora>
+
+    <ora id="tiz" tipus="eloadas">
+        <kurzus>Elektrotechnika-elektronika</kurzus>
+        <idopont>
+            <nap>Péntek</nap>
+            <tol>12:30</tol>
+            <ig>15:50</ig>
+        </idopont>
+        <helyszin>XXX</helyszin>
+        <oktato>Szabó Norbert</oktato>
+        <szak>Mérnök-informatikus Bsc</szak>
+    </ora>
+
+        <ora id="tizenegy" tipus="gyakorlat">
+        <kurzus>Elektrotechnika-elektronika</kurzus>
+        <idopont>
+            <nap>Péntek</nap>
+            <tol>12:30</tol>
+            <ig>15:50</ig>
+        </idopont>
+        <helyszin>XXX</helyszin>
+        <oktato>Szabó Norbert</oktato>
+        <szak>Mérnök-informatikus Bsc</szak>
+    </ora>
+
+        <ora id="tizenketto" tipus="eloadas">
+        <kurzus>Webes adatkezelő környezetek</kurzus>
+        <idopont>
+            <nap>Péntek</nap>
+            <tol>12:30</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>Online</helyszin>
+        <oktato>Dr. BL</oktato>
+        <szak>Mérnök-informatikus Bsc</szak>
+    </ora>
+
+</LN40BG_orarend>

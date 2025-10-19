@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT LN40BG_orarend (ora+)>
+
+    <!ELEMENT ora (kurzus,idopont,helyszin,oktato,szak)>
+
+        <!ATTLIST ora id ID #REQUIRED>
+        <!ATTLIST ora tipus (eloadas | gyakorlat) "eloadas">
+
+        <!ELEMENT kurzus (#PCDATA)>
+        <!ELEMENT idopont (nap,tol,ig)>
+            <!ELEMENT nap (#PCDATA)>
+            <!ELEMENT tol (#PCDATA)>
+            <!ELEMENT ig (#PCDATA)>
+        <!ELEMENT helyszin (#PCDATA)>
+        <!ELEMENT oktato (#PCDATA)>
+        <!ELEMENT szak (#PCDATA)>
