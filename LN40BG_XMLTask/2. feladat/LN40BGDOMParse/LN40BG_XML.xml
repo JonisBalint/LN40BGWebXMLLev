@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Autonyilvantartas>
+
+    <!-- ===================== TULAJOK ===================== -->
+
+    <!-- Tulaj 1 -->
+    <Tulaj>
+        <Tulaj_ID>T1</Tulaj_ID>
+        <Nev>Kiss Ádám</Nev>
+        <Telszam>0620123456</Telszam>
+        <Telszam>0670123456</Telszam>
+        <Cim>
+            <Varos>Miskolc</Varos>
+            <Utca>Petőfi</Utca>
+            <Hazszam>10</Hazszam>
+        </Cim>
+    </Tulaj>
+
+    <!-- Tulaj 2 -->
+    <Tulaj>
+        <Tulaj_ID>T2</Tulaj_ID>
+        <Nev>Nagy Dóra</Nev>
+        <Telszam>0630123456</Telszam>
+        <Telszam>0660123456</Telszam>
+        <Cim>
+            <Varos>Eger</Varos>
+            <Utca>Könyök</Utca>
+            <Hazszam>5</Hazszam>
+        </Cim>
+    </Tulaj>
+
+    <!-- ===================== AUTÓK ===================== -->
+
+    <!-- Autó 1 -->
+    <Auto>
+        <Rendszam>ABC-123</Rendszam>
+        <Tulaj_FK>T1</Tulaj_FK>
+        <Marka>BMW</Marka>
+        <Tipus>320d</Tipus>
+        <Gyartasi_ev>2018</Gyartasi_ev>
+    </Auto>
+
+    <!-- Autó 2 -->
+    <Auto>
+        <Rendszam>DEF-456</Rendszam>
+        <Tulaj_FK>T2</Tulaj_FK>
+        <Marka>Audi</Marka>
+        <Tipus>A4</Tipus>
+        <Gyartasi_ev>2020</Gyartasi_ev>
+    </Auto>
+
+    <!-- ===================== BIZTOSÍTÁSOK ===================== -->
+
+    <!-- Biztosítás 1 -->
+    <Biztositas>
+        <Bizt_ID>BIZ1</Bizt_ID>
+        <Biztosito>Allianz</Biztosito>
+        <Tipus>CASCO</Tipus>
+        <Dij>25000</Dij>
+        <Rsz_FK>ABC-123</Rsz_FK>
+    </Biztositas>
+
+    <!-- Biztosítás 2 -->
+    <Biztositas>
+        <Bizt_ID>BIZ2</Bizt_ID>
+        <Biztosito>Generali</Biztosito>
+        <Tipus>Kötelező</Tipus>
+        <Dij>18000</Dij>
+        <Rsz_FK>DEF-456</Rsz_FK>
+    </Biztositas>
+
+    <!-- ===================== BALESETEK ===================== -->
+
+    <!-- Baleset 1 -->
+    <Baleset>
+        <Baleset_ID>BA1</Baleset_ID>
+        <Rsz_BFK>ABC-123</Rsz_BFK>
+        <Datum>2024-01-10</Datum>
+        <Helyszin>Miskolc</Helyszin>
+        <Leiras>Koccanás</Leiras>
+        <Kar>300000</Kar>
+    </Baleset>
+
+    <!-- Baleset 2 -->
+    <Baleset>
+        <Baleset_ID>BA2</Baleset_ID>
+        <Rsz_BFK>DEF-456</Rsz_BFK>
+        <Datum>2023-09-12</Datum>
+        <Helyszin>Eger</Helyszin>
+        <Leiras>Csúszós út</Leiras>
+        <Kar>120000</Kar>
+    </Baleset>
+
+    <!-- ===================== SZERVIZEK ===================== -->
+
+    <!-- Szerviz 1 -->
+    <Szerviz>
+        <Szerviz_ID>SZ1</Szerviz_ID>
+        <Baleset_FK>BA1</Baleset_FK>
+        <Telszam>0630333444</Telszam>
+        <Cim>Miskolc, Gyár utca 22.</Cim>
+        <Nev>Autószerviz Miskolc</Nev>
+    </Szerviz>
+
+    <!-- Szerviz 2 -->
+    <Szerviz>
+        <Szerviz_ID>SZ2</Szerviz_ID>
+        <Baleset_FK>BA2</Baleset_FK>
+        <Telszam>0630555666</Telszam>
+        <Cim>Eger, Tavasz utca 7.</Cim>
+        <Nev>EgerMobil</Nev>
+    </Szerviz>
+
+    <!-- ===================== RÉSZVÉTEL ===================== -->
+
+    <!-- Részvétel 1 -->
+    <Reszvetel>
+        <Baleset_FK>BA1</Baleset_FK>
+        <Rendszam_FK>ABC-123</Rendszam_FK>
+        <Okozo>igen</Okozo>
+        <Karosult>nem</Karosult>
+    </Reszvetel>
+
+    <!-- Részvétel 2 -->
+    <Reszvetel>
+        <Baleset_FK>BA1</Baleset_FK>
+        <Rendszam_FK>DEF-456</Rendszam_FK>
+        <Okozo>nem</Okozo>
+        <Karosult>igen</Karosult>
+    </Reszvetel>
+
+</Autonyilvantartas>
