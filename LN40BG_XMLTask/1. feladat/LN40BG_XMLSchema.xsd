@@ -193,6 +193,15 @@
             <xs:field xpath="Rendszam_FK"/>
         </xs:keyref>
 
+<!-- ===================== 1:1 KAPCSOLAT A  SZERVIZ – BALESET-RE, MERT NEM JÓL CSINÁLTAM ===================== -->
+
+<!-- Egy balesethez legfeljebb egy szerviz tartozhat -->
+        <xs:unique name="Szerviz_Baleset_Unique">
+            <xs:selector xpath="Szerviz"/>
+            <xs:field xpath="Baleset_FK"/>
+        </xs:unique>
+
     </xs:element>
 
 </xs:schema>
+
